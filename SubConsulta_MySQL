@@ -1,0 +1,71 @@
+CREATE DATABASE if not exists SuperGames;
+USE SuperGames;
+
+create table localizacao(
+Id int (3) primary key auto_increment,
+Secao varchar (50) not null,
+Prateleira int (3) not null
+);
+describe localizacao;
+create table jogo (
+Cod int(3) primary key auto_increment,
+Nome varchar (50) not null,
+Valor decimal (6, 2) not null,
+Localizacao_Id int (3) not null,
+foreign key (Localizacao_Id) references localizacao (Id)
+);
+describe jogo;
+
+insert localizacao values (0, 'Guerra', '001'),
+(0, 'Guerra', '002'),
+(0, 'Aventura', '100'),
+(0, 'Aventura', '101'),
+(0, 'RPG', '150'),
+(0, 'RPG', '151');
+
+insert jogo values (0, 'COD 3', '125.00', 1),
+(0, 'BF 1', '150.00', 2),
+(0, 'GOW 4', '200.00', 3),
+(0, 'SLY', '99.00', 4),
+(0, 'FF XV', '205.00', 5);
+insert jogo values (0, 'Super Drive', '250.00', 2),
+(0, 'Neo', '100.00', 2),
+(0, 'Max Joe', '120.00', 3),
+(0, 'N. New', '199.00', 4);
+select * from jogo;
+select count(*) from jogo;
+
+select max(valor) as "Maior Valor" from jogo;
+select min(valor) as "Menor Valor" from jogo;
+select avg(valor) as "média guerra" from jogo
+inner join localizacao on localizacao.Id = jogo.localizacao_Id
+where secao = "Guerra";
+select sum(valor) as "Total geral" from jogo;
+
+UPDATE jogo set Valor = Valor *0.5 where nome = "BF 1";
+UPDATE jogo set Valor = Valor *0.5 where nome = "COD 3";
+
+create table if not exists promocao(
+Promo int (3) primary key auto_increment,
+Cod_jogo int not null,
+foreign key (Cod_jogo) references jogo (Cod) 
+);
+
+insert promocao values (0, 1),
+(0, 2);
+
+select * from promocao;
+
+select
+jogo.Nome as 'Título',
+jogo.Valor as 'Preço'
+from
+jogo
+where jogo.Cod in (select Cod_Jogo from promocao);
+
+
+*/ nessa última pesquisa conseguimos visualiz todos os jogos que se encontram em promoção.
+select jogo.nome as "Título", jogo.valor as "Preço", localizacao.secao as "Seção"
+from jogo inner join localizacao on localizacao.Id = jogo.localizacao_Id
+where jogo>Cod in  (select Cod_jogo from promocao);
+//nesse select  conseguimos  encadear nome, preço e seção //
