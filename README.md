@@ -38,8 +38,10 @@ Apaixonado por resolver problemas com tecnologia, busco sempre inovar com foco e
 
 ## 📚 Formação & Certificações
 
-- **Engenharia de Software** – Anhanguera (2024)
+- **Engenharia de Dados e Inteligência Artificial** - Pós-Graduação | Anhanguera (2025-26)
+- **Engenharia de Software** – Bacharel | Anhanguera (2024)
 - Certificações:
+  - Santander 2025 - Backend com Python (Dio)
   - Power BI Week – Microsoft
   - Programação Web – Prodabel
   - Java Básico – Loiane.training (em curso)
