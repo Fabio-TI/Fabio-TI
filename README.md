@@ -66,7 +66,9 @@ Apaixonado por resolver problemas com tecnologia, busco sempre inovar com foco e
 
 ## 📫 Vamos conectar?
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/lima-fábio/)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/fabio-delima/)
+- 🤳 [Instagram](https://www.instagram.com/ti.fabio)
+- 📳 [Whatsapp](https://wa.me/+5531996197656)
 - 📧 fabiojr.lim@hotmail.com
 
 ---
