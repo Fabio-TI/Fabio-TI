@@ -1,8 +1,8 @@
 # 👋 Olá, eu sou o Fábio Lima!
 
-Sou **Engenheiro de Software Backend** com experiência sólida em **Python**, **Angular**, **APIs RESTful**, **automação de processos**, **Machine Learning**, **SAP 4Hana** e **Business Intelligence**. Atuo como **Analista de Sistemas** e tenho uma forte base em **análise de dados**, **integração de sistemas** e **metodologias ágeis** como SCRUM e Kanban.
+Sou **Engenheiro de Software e Dados** com experiência sólida em **Python**, **Angular**, **APIs RESTful**, **ETL**, **Databricks**, **Azure**, **automação de processos**, **Machine Learning**, **SAP 4Hana** e **Business Intelligence**. Atuo como **Analista de Sistemas | Fullstack** e tenho uma forte base em **análise de dados**, **integração de sistemas** e **metodologias ágeis** como _SCRUM_ e _Kanban_.
 
-Apaixonado por resolver problemas com tecnologia, busco sempre inovar com foco em resultados escaláveis e eficiência operacional. Tenho uma visão analítica voltada para negócios e hoje estou expandindo meus conhecimentos em **RPA** e **IA aplicada à automação de processos jurídicos**.
+Resolvo problemas com tecnologia, busco sempre inovar com foco em resultados escaláveis e eficiência operacional. Tenho uma visão analítica voltada para negócios e hoje estou expandindo meus conhecimentos em **RPA** e **IA aplicada à automação de processos financeiros**.
 
 ---
 
@@ -21,10 +21,10 @@ Apaixonado por resolver problemas com tecnologia, busco sempre inovar com foco e
 
 ## 💼 Experiências Recentes
 
-- **Analista de Sistemas | Live Ótica (2023 - Atual)**
-  - Backend com Python + Angular
-  - Automação de processos internos
-  - Integração via APIs e SCRUM na entrega de funcionalidades
+- **Analista de Sistemas/Fullstack | Live Ótica (2023 - Atual)**
+  - Backend com Python + Angular: Criação de sistema comercial da rede de Ótica Live, manutenção e suporte de sistema
+  - Automação de processos internos: Extração, tratamento e carregamento de dados financeiros para envio a setor contábil
+  - Integração via APIs e SCRUM na entrega de funcionalidades: Desenvolvimento de Fintech Live Bank
 
 - **Analista Funcional SAP | COPASA (2022 - 2023)**
   - Participação no projeto SAP 4Hana
@@ -66,15 +66,20 @@ Apaixonado por resolver problemas com tecnologia, busco sempre inovar com foco e
 
 ## 📫 Vamos conectar?
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/fabio-delima/)
-- 🤳 [Instagram](https://www.instagram.com/ti.fabio)
-- 📳 [Whatsapp](https://wa.me/+5531996197656)
-- 📧 fabiojr.lim@hotmail.com
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabio-delima/)
+- [![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ti.fabio)
+- [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5531996197656)
+- [![E-mail](https://img.shields.io/badge/-Email-1877F2?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](fabiojr.lim@hotmail.com)
 
 ---
 
-🎯 **Atualmente focado em:**
+## 🎯 Atualmente focado em:
 - Consolidar portfólio de automação com RPA
-- Avançar em IA aplicada à área jurídica
+- Avançar em IA aplicada à área financeira
 - Criar conteúdo prático no LinkedIn sobre tecnologia e automação
+
+---
+## 🎖️Card Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fabio-ti&theme=transparent&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
 
